@@ -14,12 +14,15 @@ Me arrisco a dizer que a engenharia de software é o coração de um projeto de 
 Within Google, we sometimes say, “Software engineering is programming integrated over time.” Programming is certainly a significant part of software engineering:
 after all, programming is how you generate new software in the first place. If you accept this distinction, it also becomes clear that we might need to delineate
 between programming tasks (development) and software engineering tasks (development, modification, maintenance). The addition of time adds an important new
-dimension to programming. Cubes aren’t squares, distance isn’t velocity. Software engineering isn’t programming.
+dimension to programming. Cubes aren’t squares, distance isn’t velocity. Software engineering isn’t programming. ("Engenharia de Software no Google")
 
-## Comentário
+## 1)Comentário
 Gosto muito da máxima: "Engenharia de software não é programação", pois eu mesmo já confundi várias vezes as diferenças entre. Da mesma forma como um quadrado é apenas uma face de um cubo, engenharia de software abrange a programação.
 
-## Exemplos de Trade-offs:
+## 2)Exemplos de Trade-offs:
 1. No meu trabalho, o Excel é muito utilizado por ser prático. Porém, pecamos muito no quesito "segurança". Isso, pois as várias planilhas ficam acessiveis na rede da empresa.
 2. Na API do 1° Semestre, desenvolvemos uma aplicação em Python por seu alto nível enquanto linguagem. Porém, numa perspectiva escalavel, a aplicação certamente ficará muito lenta.
 3. A ferramenta 'SIGA', nos finais de semestres, demonstra o que NÃO é escalabilidade. Porém, seu desenvolvimento em GeneXus é relativamente simples.
+
+## 3)Distinção entre softwares baseadas nos requisitos não funcionais
+Acredito que o Facebook se destaca dos demais pela sua alta escalabilidade e, até mesmo, usabilidade.
