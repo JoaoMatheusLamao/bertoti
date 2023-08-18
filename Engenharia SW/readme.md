@@ -1,4 +1,4 @@
-# Aula 1
+# Aula 1 (11/08/2023)
 ## O que é Engenharia de Software?
 We see three critical differences between programming and software engineering: time, scale, and the trade-offs at play. On a software engineering project, engineers
 need to be more concerned with the passage of time and the eventual need for change. In a software engineering organization, we need to be more concerned about scale and
@@ -8,7 +8,7 @@ decisions with higher-stakes outcomes, often based on imprecise estimates of tim
 Me arrisco a dizer que a engenharia de software é o coração de um projeto de software. Isto, pois os engenheiros que são responsáveis por tomar decisões de grande impacto no sistema, além de se preocupar com a qualidade e eficiência do projeto.
 
 
-# Aula 2
+# Aula 2 (14/08/2023)
 ## Engenharia de Software x Programação?
 
 Within Google, we sometimes say, “Software engineering is programming integrated over time.” Programming is certainly a significant part of software engineering:
@@ -26,3 +26,20 @@ Gosto muito da máxima: "Engenharia de software não é programação", pois eu 
 
 ## 3)Distinção entre softwares baseadas nos requisitos não funcionais
 Acredito que o Facebook se destaca dos demais pela sua alta escalabilidade e, até mesmo, usabilidade.
+
+# Aula 3 (18/08/2023)
+## 10 Usability Heuristics for User Interface Design
+<b>Link:</b> https://www.nngroup.com/articles/ten-usability-heuristics/
+
+## Perguntas
+1. Sobre qual requisito não funcional este texto fala?
+
+O texto fala sobre a usabilidade.
+
+2. Qual a importância?
+
+A usabilidade é essencial, uma vez que ela implica diretamente na experiência do usuario.
+
+3. Exemplos
+- Controle e liberdade do usuário:
+O sistema de exclusão de repositórios do Github, na minha opinião, é um ótimo exemplo de prevenção contra ações indesejadas do usuário. Isso, pois para excluir um repositório, é necessário navegar até uma aba específica e, além disso, digitar o nome do repositório (como se fosse uma senha) para, de fato, excluir o repositório.
