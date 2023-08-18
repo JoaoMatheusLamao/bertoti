@@ -29,7 +29,8 @@ Acredito que o Facebook se destaca dos demais pela sua alta escalabilidade e, at
 
 # Aula 3 (18/08/2023)
 ## 10 Usability Heuristics for User Interface Design
-<b>Link:</b> https://www.nngroup.com/articles/ten-usability-heuristics/
+<a href="https://www.nngroup.com/articles/ten-usability-heuristics/" target=_blanck><b>Link para o artigo</b></a>
+<b>Link:</b> 
 
 ## Perguntas
 1. Sobre qual requisito não funcional este texto fala?
