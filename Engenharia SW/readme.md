@@ -59,6 +59,10 @@ Acerto: Disponibilização de atalhos;<br>
 # Aula 4 (21/08/2023)
 
 1. Fazer um diagrama de casos de uso com requerimentos funcionais. <br>
-   Diagrama de Casos de Uso - Secretatia institucional;
-![DCU drawio (1)](https://github.com/JoaoMatheusLamao/bertoti/assets/77554165/2ada8811-441c-407c-aba8-c03a61b1de97)
+   Diagrama de Casos de Uso - Secretatia institucional (V1);
+![DCU drawio (2)](https://github.com/JoaoMatheusLamao/bertoti/assets/77554165/71b18f96-0c52-4e21-bdd9-4eae5935da19)
 
+# 28/08/2023
+1. Fazer um Diagrama de Classes referente ao Diagrama de Casos de Uso.
+   Diagrama de Classes - Secretaria Institucional (V1);
+![Secretaria institucionai (DC) drawio](https://github.com/JoaoMatheusLamao/bertoti/assets/77554165/2c03a243-70d3-4f47-b9a8-6b60fe4f5736)
