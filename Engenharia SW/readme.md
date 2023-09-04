@@ -1,6 +1,6 @@
-# Aula 1 (11/08/2023)
+# 11/08/2023
 ## O que é Engenharia de Software?
-We see three critical differences between programming and software engineering: time, scale, and the trade-offs at play. On a software engineering project, engineers
+> We see three critical differences between programming and software engineering: time, scale, and the trade-offs at play. On a software engineering project, engineers
 need to be more concerned with the passage of time and the eventual need for change. In a software engineering organization, we need to be more concerned about scale and
 efficiency, both for the software we produce as well as for the organization that is producing it. Finally, as software engineers, we are asked to make more complex
 decisions with higher-stakes outcomes, often based on imprecise estimates of time and growth. ("Engenharia de Software no Google")
@@ -8,10 +8,10 @@ decisions with higher-stakes outcomes, often based on imprecise estimates of tim
 Me arrisco a dizer que a engenharia de software é o coração de um projeto de software. Isto, pois os engenheiros que são responsáveis por tomar decisões de grande impacto no sistema, além de se preocupar com a qualidade e eficiência do projeto.
 
 
-# Aula 2 (14/08/2023)
+# 14/08/2023
 ## Engenharia de Software x Programação?
 
-Within Google, we sometimes say, “Software engineering is programming integrated over time.” Programming is certainly a significant part of software engineering:
+> Within Google, we sometimes say, “Software engineering is programming integrated over time.” Programming is certainly a significant part of software engineering:
 after all, programming is how you generate new software in the first place. If you accept this distinction, it also becomes clear that we might need to delineate
 between programming tasks (development) and software engineering tasks (development, modification, maintenance). The addition of time adds an important new
 dimension to programming. Cubes aren’t squares, distance isn’t velocity. Software engineering isn’t programming. ("Engenharia de Software no Google")
@@ -27,7 +27,7 @@ Gosto muito da máxima: "Engenharia de software não é programação", pois eu 
 ## 3)Distinção entre softwares baseadas nos requisitos não funcionais
 Acredito que o Facebook se destaca dos demais pela sua alta escalabilidade e, até mesmo, usabilidade.
 
-# Aula 3 (18/08/2023)
+# 18/08/2023
 ## 10 Usability Heuristics for User Interface Design
 <a href="https://www.nngroup.com/articles/ten-usability-heuristics/" target="_blanck"><b>Link para o artigo</b></a> 
 
@@ -56,13 +56,20 @@ Acerto: Uso de calendário (como metáfora) para induzir o usuário a lembrar.<b
 - Eficiência de uso: <br>
 Acerto: Disponibilização de atalhos;<br>
 
-# Aula 4 (21/08/2023)
+# 21/08/2023
 
 1. Fazer um diagrama de casos de uso com requerimentos funcionais. <br>
-   Diagrama de Casos de Uso - Secretatia institucional (V1);
+   Diagrama de Casos de Uso - Secretatia institucional (V1); <br>
+   
 ![DCU drawio (2)](https://github.com/JoaoMatheusLamao/bertoti/assets/77554165/71b18f96-0c52-4e21-bdd9-4eae5935da19)
 
 # 28/08/2023
 1. Fazer um Diagrama de Classes referente ao Diagrama de Casos de Uso.
-   Diagrama de Classes - Secretaria Institucional (V1);
+   Diagrama de Classes - Secretaria Institucional (V1); <br>
+   
 ![Secretaria institucionai (DC) drawio](https://github.com/JoaoMatheusLamao/bertoti/assets/77554165/2c03a243-70d3-4f47-b9a8-6b60fe4f5736)
+
+# 31/08/2023
+Diagrama de Classes - Secretaria Institucional (V2);<br>
+
+![Secretaria institucionai (DC) drawio (1)](https://github.com/JoaoMatheusLamao/bertoti/assets/77554165/dfa1ae93-1dae-4c99-8b4b-70c6cc3d6c75)
