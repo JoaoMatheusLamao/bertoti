@@ -33,8 +33,12 @@ public class Program {
 
         System.out.println(secretaria.consultarMatricula(12345));
 
+        System.out.println("\n=================\n");
+
         System.out.println(secretaria.validarMatriculaAtiva(12345));
         System.out.println(secretaria.validarMatriculaAtiva(123));
+
+        System.out.println("\n=================\n");
 
         System.out.println(secretaria.emitirAtestadoMatricula(312));
         System.out.println(secretaria.emitirAtestadoMatricula(123));

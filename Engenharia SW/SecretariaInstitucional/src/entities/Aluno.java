@@ -50,18 +50,18 @@ public class Aluno {
 
     @Override
     public String toString() {
-        String retorno =  "Aluno{" +
-                "ra=" + ra +
-                ", nome='" + nome + '\'' +
-                ", status=" + status +
-                ", disciplinas= ";
-
+        String dics = "";
         for (Disciplina d : disciplinas){
-            retorno += d.getNome() + " | ";
+            dics += d.getNome() + " | ";
         }
 
-        retorno += '}';
+        String retorno =  "Aluno: " +
+                "RA: " + ra +
+                "\nNome: " + nome + '\'' +
+                "\nStatus: " + status +
+                "\nDisciplinas:  " + dics;
 
         return retorno;
+
     }
 }
