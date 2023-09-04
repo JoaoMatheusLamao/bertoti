@@ -47,4 +47,21 @@ public class Aluno {
         this.disciplinas.add(disciplina);
     }
 
+
+    @Override
+    public String toString() {
+        String retorno =  "Aluno{" +
+                "ra=" + ra +
+                ", nome='" + nome + '\'' +
+                ", status=" + status +
+                ", disciplinas= ";
+
+        for (Disciplina d : disciplinas){
+            retorno += d.getNome() + " | ";
+        }
+
+        retorno += '}';
+
+        return retorno;
+    }
 }
