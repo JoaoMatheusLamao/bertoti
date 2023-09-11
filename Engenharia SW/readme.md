@@ -41,19 +41,19 @@ O texto fala sobre a usabilidade.
 A usabilidade é essencial, uma vez que ela implica diretamente na experiência do usuario.
 
 3. Exemplos
-- Status do sistema: <br>
+- **Status do sistema:** <br>
 Acerto: Whatsapp <br>
 Erro: Entrada do Windows<br>
-- Conexão sistema x mundo real: <br>
+- **Conexão sistema x mundo real:** <br>
 Acerto: Metáforas do Windows (Janela, Arquivos)<br>
 Erro: SQL Exception para o usuário<br>
-- Controle e liberdade do usuário: <br>
+- **Controle e liberdade do usuário:** <br>
 Acerto: O sistema de exclusão de repositórios do Github, na minha opinião, é um ótimo exemplo de prevenção contra ações indesejadas do usuário. Isso, pois para excluir um repositório, é necessário navegar até uma aba específica e, além disso, digitar o nome do repositório (como se fosse uma senha) para, de fato, excluir o repositório. <br>
-- Padrões: <br>
+- **Padrões:** <br>
 Acerto: Cores padrões para informar erros ou sucessos<br>
-- Reconhecimento em vez lembrança: <br>
+- **Reconhecimento em vez lembrança:** <br>
 Acerto: Uso de calendário (como metáfora) para induzir o usuário a lembrar.<br>
-- Eficiência de uso: <br>
+- **Eficiência de uso:** <br>
 Acerto: Disponibilização de atalhos;<br>
 
 # 21/08/2023
@@ -73,3 +73,10 @@ Acerto: Disponibilização de atalhos;<br>
 Diagrama de Classes - Secretaria Institucional (V2);<br>
 
 ![Secretaria institucionai (DC) drawio (1)](https://github.com/JoaoMatheusLamao/bertoti/assets/77554165/dfa1ae93-1dae-4c99-8b4b-70c6cc3d6c75)
+
+# 11/09/2023
+Diagrama de Classes - Secretaria Institucional (V3); <br>
+
+> Inserção dos métodos Getters e Setters.
+
+![Secretaria institucionai (DC) drawio (2)](https://github.com/JoaoMatheusLamao/bertoti/assets/77554165/1de824fb-7109-4c22-9cd3-47f266199683)
