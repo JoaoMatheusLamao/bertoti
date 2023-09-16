@@ -66,5 +66,6 @@ public class Secretaria {
 
     public void cadastrarProfessor(Professor prof){
         professores.add(prof);
+
     }
 }
