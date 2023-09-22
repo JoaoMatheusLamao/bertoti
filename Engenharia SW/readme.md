@@ -80,3 +80,14 @@ Diagrama de Classes - Secretaria Institucional (V3); <br>
 > Inserção dos métodos Getters e Setters.
 
 ![Secretaria institucionai (DC) drawio (2)](https://github.com/JoaoMatheusLamao/bertoti/assets/77554165/1de824fb-7109-4c22-9cd3-47f266199683)
+
+# 22/09/2023 - Testes Unitários
+
+```java
+funcao(int a) {
+   b = a + 1; //deveria ser a - 1
+   c = b / 30000;
+   return c; 
+}
+```
+> Considerando apenas números inteiros de -32576 à 32568, ***apenas os números 29999, 30000, -29999 e -30000 mostram o problema da aplicação.***
