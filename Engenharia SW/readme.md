@@ -91,3 +91,8 @@ funcao(int a) {
 }
 ```
 > Considerando apenas números inteiros de -32576 à 32568, ***apenas os números 29999, 30000, -29999 e -30000 mostram o problema da aplicação.***
+
+### Classes de equivalência:
+> Na classe Secretaria, temos um método para verificar se uma matrícula está ativa ou não (validarMatriculaAtiva(int ra)).
+
+> Uma possível classe de equivalência para tal método, seria testar com uma entrada (ra) inexistente, resultando em false. 
