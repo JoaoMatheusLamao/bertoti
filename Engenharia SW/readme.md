@@ -43,15 +43,21 @@ A usabilidade é essencial, uma vez que ela implica diretamente na experiência 
 3. Exemplos
 - **Status do sistema:** <br>
 Acerto: Whatsapp <br>
+![image](https://github.com/JoaoMatheusLamao/bertoti/assets/77554165/a47f85b9-14f7-4e46-8835-c3c6d21125f7)
+
 Erro: Entrada do Windows<br>
 - **Conexão sistema x mundo real:** <br>
 Acerto: Metáforas do Windows (Janela, Arquivos)<br>
 Erro: SQL Exception para o usuário<br>
 - **Controle e liberdade do usuário:** <br>
 Acerto: O sistema de exclusão de repositórios do Github, na minha opinião, é um ótimo exemplo de prevenção contra ações indesejadas do usuário. Isso, pois para excluir um repositório, é necessário navegar até uma aba específica e, além disso, digitar o nome do repositório (como se fosse uma senha) para, de fato, excluir o repositório. <br>
+![image](https://github.com/JoaoMatheusLamao/bertoti/assets/77554165/78a1c4fe-3045-48df-b4f0-3eb471724600)
+
 - **Padrões:** <br>
 Acerto: Cores padrões para informar erros ou sucessos<br>
 - **Reconhecimento em vez lembrança:** <br>
+![image](https://github.com/JoaoMatheusLamao/bertoti/assets/77554165/e2d381ad-18ba-40d9-9560-3330c33e8679)
+
 Acerto: Uso de calendário (como metáfora) para induzir o usuário a lembrar.<br>
 - **Eficiência de uso:** <br>
 Acerto: Disponibilização de atalhos;<br>
