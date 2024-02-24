@@ -2,7 +2,7 @@
 
 ## GET ALL
 
-![image](https://github.com/JoaoMatheusLamao/bertoti/assets/77554165/2e3905d2-acc8-4a67-982b-b0d0e804fd2a)
+![image](https://github.com/JoaoMatheusLamao/bertoti/assets/77554165/2d3f3993-eb9e-4556-a960-e16f22cff47e)
 
 ## GET BY ID
 
