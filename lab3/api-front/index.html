@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>API de Produtos</title>
+  </head>
+  <body>
+    <style>
+      #productForm {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 50px;
+      }
+
+      label {
+        font-weight: bold;
+      }
+
+      input[type="text"] {
+        width: 200px;
+        padding: 5px;
+        margin-bottom: 10px;
+      }
+
+      button[type="submit"] {
+        padding: 10px 20px;
+        background-color: #4caf50;
+        color: white;
+        border: none;
+        cursor: pointer;
+      }
+
+      #productList {
+        margin-top: 20px;
+      }
+
+      h1 {
+        text-align: center;
+      }
+    </style>
+
+    <h1>API de Produtos</h1>
+
+    <form id="productForm">
+      <label for="productName">Nome:</label>
+      <input type="text" id="productName" name="productName" /><br /><br />
+
+      <label for="cor">Cor:</label>
+      <input type="text" id="cor" name="cor" /><br /><br />
+      
+      <label for="pr">Preço:</label>
+      <input type="text" id="pr" name="pr" /><br /><br />
+
+      <button type="submit">Adicionar Produto</button>
+    </form>
+
+    <div id="productList"></div>
+
+    <script>
+
+      document.addEventListener("DOMContentLoaded", function () {
+        // Função para buscar os produtos na API
+        getProducts();
+      });
+
+      function getProducts() {
+        fetch("http://localhost:8080/produtos", {
+          method: "GET",
+          headers: {
+            "Content-Type": "application/json",
+          },
+        })
+          .then((response) => response.json())
+          .then((data) => {
+            // Aqui você pode fazer algo com a resposta da API, se necessário
+            console.log(data);
+            data.forEach((product) => {
+              const productList = document.getElementById("productList");
+              productList.innerHTML = ""; // Limpar a div antes de adicionar os produtos
+
+              data.forEach((product) => {
+                const productItem = document.createElement("div");
+                productItem.innerHTML = `ID: ${product.id}, Preço: ${product.preco}, Nome: ${product.nome ? product.nome : 'N/A'}, Categoria: ${product.categoria ? product.categoria.nome : "N/A"}`;
+                productList.appendChild(productItem);
+              });
+            });
+          });
+      }
+     
+      // Função para enviar os dados do formulário para a API
+      function addProduct(event) {
+        event.preventDefault();
+
+        const productName = document.getElementById("productName").value;
+        const cor = document.getElementById("cor").value;
+        const pr = document.getElementById("pr").value;
+
+        const product = {
+          nome: productName,
+          cor: productName,
+          preco: pr,
+          categoria: { id: 1 },
+          formaPagamento: { id: 4 },
+        };
+
+        // Aqui você pode fazer uma requisição POST para a API para adicionar o produto
+        fetch("http://localhost:8080/produtos", {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+          },
+          body: JSON.stringify(product),
+        })
+          .then((response) => response.json())
+          .then((data) => {
+            // Aqui você pode fazer algo com a resposta da API, se necessário
+            console.log(data);
+            // Limpar o formulário após adicionar o produto
+            document.getElementById("productForm").reset();
+            getProducts();
+          })
+          .catch((error) => {
+            console.error("Erro ao adicionar produto:", error);
+          });
+
+        // Aqui você pode fazer uma requisição POST para a API para adicionar o prod
+
+        
+      }
+
+      // Adicionar o evento de submit ao formulário
+      document
+        .getElementById("productForm")
+        .addEventListener("submit", addProduct);
+    </script>
+  </body>
+</html>
