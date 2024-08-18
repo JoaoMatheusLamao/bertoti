@@ -1,8 +1,8 @@
 package interfaces;
 
-public class DescontoVIP implements DescontoStrategy{
+public class DescontoNatal implements DescontoStrategy{
     @Override
     public float aplicarDesconto(float valor) {
-        return (float) (valor - (valor * 0.5));
+        return (float) (valor - (valor * 0.2));
     }
 }
