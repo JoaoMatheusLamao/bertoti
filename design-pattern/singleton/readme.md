@@ -1,4 +1,4 @@
-# Padrão Observer
+# Padrão Singleton
 
 ## Intenção
 
