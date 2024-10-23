@@ -15,4 +15,4 @@
 
 ## UML
 
-![](./observerUML.png)
+![](./composite.png)
